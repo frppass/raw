@@ -1,0 +1,307 @@
+{
+    "spider": "",
+    "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+    "sites": [
+        
+        {
+            "key": "UVod",
+            "name": "UVod",
+            "type": 3,
+            "api": "./py/UVod.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "oppafast",
+            "name": "oppafast",
+            "type": 3,
+            "api": "./py/oppafast.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+        {
+            "key": "oppa",
+            "name": "oppa",
+            "type": 3,
+            "api": "./py/oppa.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "dramahua",
+            "name": "dramahua",
+            "type": 3,
+            "api": "./py/dramahua.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "animeidboats",
+            "name": "animeidboats",
+            "type": 3,
+            "api": "./py/animeidboats.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "animexin",
+            "name": "animexin",
+            "type": 3,
+            "api": "./py/animexin.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "anichinmoe",
+            "name": "anichinmoe",
+            "type": 3,
+            "api": "./py/anichinmoe.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "anichinblog",
+            "name": "anichinblog",
+            "type": 3,
+            "api": "./py/anichinblog.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "anichinwatch",
+            "name": "anichinwatch",
+            "type": 3,
+            "api": "./py/anichinwatch.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "donghuafilm",
+            "name": "donghuafilm",
+            "type": 3,
+            "api": "./py/donghuafilm.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },
+        {
+            "key": "donghub",
+            "name": "donghub",
+            "type": 3,
+            "api": "./py/donghub.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },
+        {
+            "key": "lk21film",
+            "name": "lk21film",
+            "type": 3,
+            "api": "./py/lk21film.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "lk21drama",
+            "name": "lk21drama",
+            "type": 3,
+            "api": "./py/lk21drama.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "cctvskw",
+            "name": "cctvskw",
+            "type": 3,
+            "api": "./py/cctvskw.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "cctvmempawah",
+            "name": "cctvmempawah",
+            "type": 3,
+            "api": "./py/cctvmempawah.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "cctvsanggau",
+            "name": "cctvsanggau",
+            "type": 3,
+            "api": "./py/cctvsanggau.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+        {
+            "key": "cctvsintang",
+            "name": "cctvsintang",
+            "type": 3,
+            "api": "./py/cctvsintang.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }
+     
+    ],
+    "parses": [
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "777",
+            "type": 0,
+            "url": "https://www.huaqi.live/?url="
+        },
+        {
+            "name": "jsonplayer",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        }
+    ],
+    "flags": [
+        "youku",
+        "tudou",
+        "qq",
+        "qiyi",
+        "iqiyi",
+        "leshi",
+        "letv",
+        "sohu",
+        "imgo",
+        "mgtv",
+        "bilibili",
+        "pptv",
+        "PPTV",
+        "migu"
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "lives": [
+        {
+            "name": "MY live-catvod",
+            "type": "0",
+            "ua": "okhttp/3.15",
+            "url": "https://live.catvod.com/tv.m3u"
+        },
+        {
+            "name": "MY live-catvod-local",
+            "type": "0",
+            "ua": "okhttp/3.15",
+            "url": "http://127.0.0.1:9978/file/lives/Live-catvod.txt"
+        },
+        {
+            "name": "MQiTV",
+            "api": "csp_MQiTV",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
+            "ext": "https://59.125.210.231:4433",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "肥羊国内直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "tv.m3u",
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+        }
+    ]
+}
